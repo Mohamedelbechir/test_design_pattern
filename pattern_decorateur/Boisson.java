@@ -1,4 +1,4 @@
-package patter_decorateur;
+package pattern_decorateur;
 
 /**
  * Boisson

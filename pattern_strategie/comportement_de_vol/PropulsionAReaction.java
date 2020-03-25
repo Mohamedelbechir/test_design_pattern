@@ -1,4 +1,4 @@
-package patter_strategie.comportement_de_vol;
+package pattern_strategie.comportement_de_vol;
 
 /**
  * PropulsionAReaction

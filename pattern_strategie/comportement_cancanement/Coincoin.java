@@ -1,4 +1,4 @@
-package patter_strategie.comportement_cancanement;
+package pattern_strategie.comportement_cancanement;
 
 /**
  * Coincoin
