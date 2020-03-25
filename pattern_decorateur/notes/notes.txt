@@ -1,0 +1,20 @@
+
+!! Le bon concepteur se méfie de l'heritage
+!! Représentez-vous des objets décorateur comme des <<enveloppes>>
+!! Les décorateurs ont les même super type que les objets qu'ils décore
+
+--> Le pattern Décorateur attache dynamiquement
+    des responsabilités supplémentaires à un objet. Il
+    fournit une alternative souple à la dérivation, pour
+    étendre les fonctionnalités.
+/*
+    - Principe de conception :
+        les classes doivent être ouvert au changement et fermées à la modification
+        ----------------------------------------------------------
+       
+        ------------------------------------------------------------
+       
+
+
+
+*/

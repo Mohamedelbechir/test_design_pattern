@@ -1,0 +1,12 @@
+
+/*
+    - Principe de conception :
+        Efforcez-vous de coupler faiblement les objet qui interagissent
+        ----------------------------------------------------------
+       
+        ------------------------------------------------------------
+       
+
+
+
+*/
