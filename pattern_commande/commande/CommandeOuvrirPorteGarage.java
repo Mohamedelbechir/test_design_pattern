@@ -8,6 +8,7 @@ import pattern_commande.recepteur.PorteGarage;
  */
 public class CommandeOuvrirPorteGarage implements Commande {
     PorteGarage porteGarage;
+
     public CommandeOuvrirPorteGarage(PorteGarage porteGarage) {
         this.porteGarage = porteGarage;
     }
@@ -15,16 +16,12 @@ public class CommandeOuvrirPorteGarage implements Commande {
     @Override
     public void executer() {
         porteGarage.ouvrir();
-        porteGarage.lampeAllumer();
-        porteGarage.stop();
 
     }
 
     @Override
     public void annuler() {
-       porteGarage.fermer();
-       porteGarage.lampeEteinte();
-       porteGarage.stop();
+        porteGarage.fermer();
 
     }
 

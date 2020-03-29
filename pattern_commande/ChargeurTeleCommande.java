@@ -37,13 +37,13 @@ public class ChargeurTeleCommande {
         teleCommande.setCommande(3, stereoAvecCD, stereoEteinte);
 
         System.out.println(teleCommande);
-        teleCommande.buttonMarchePresse(0);
-        teleCommande.buttonArretPresse(0);
-        teleCommande.buttonMarchePresse(1);
-        teleCommande.buttonArretPresse(1);
-        teleCommande.buttonMarchePresse(2);
-        teleCommande.buttonArretPresse(2);
-        teleCommande.buttonMarchePresse(3);
-        teleCommande.buttonArretPresse(3);
+        teleCommande.boutonMarchePresse(0);
+        teleCommande.boutonArretPresse(0);
+        teleCommande.boutonMarchePresse(1);
+        teleCommande.boutonArretPresse(1);
+        teleCommande.boutonMarchePresse(2);
+        teleCommande.boutonArretPresse(2);
+        teleCommande.boutonMarchePresse(3);
+        teleCommande.boutonArretPresse(3);
     }
 }

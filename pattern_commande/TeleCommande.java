@@ -28,18 +28,18 @@ public class TeleCommande {
         this.commandesArret[emplacement] = comArret;
     }
 
-    public void buttonMarchePresse(final int emplacement) {
+    public void boutonMarchePresse(final int emplacement) {
         this.commandesMarche[emplacement].executer();
         commandeAnnulation = this.commandesMarche[emplacement];
 
     }
 
-    public void buttonArretPresse(final int emplacement) {
+    public void boutonArretPresse(final int emplacement) {
         this.commandesArret[emplacement].executer();
         commandeAnnulation = this.commandesArret[emplacement];
     }
 
-    public void buttonAnnulPresse() {
+    public void boutonAnnulPresse() {
         this.commandeAnnulation.executer();
 
     }
