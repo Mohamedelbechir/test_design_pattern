@@ -1,0 +1,17 @@
+
+
+-> Le pattern Commande encapsule une requête comme un objet, autorisant ainsi
+   le paramétrage des clients par différentes requêtes, files d’attente et récapitulatifs
+   de requêtes, et de plus, permettant la réversibilité des opérations.
+-> Le pattern MétaCommande permet de créer des macro-commandes pour pouvoir exécute
+   plusieurs commandes à la fois.   
+
+/*
+    - Principe de conception :
+        
+        ----------------------------------------------------------
+        
+
+
+
+*/

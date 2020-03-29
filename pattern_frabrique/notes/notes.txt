@@ -1,0 +1,22 @@
+
+!! Le fait de lier votre code à une classe concrète peut le rendre plus fragile et plus rigide
+
+?? Comment pourriez-vous prendre toutes les parties (ligne de code) de votre application qui instancient des
+    classes concrètes et les encapsuler ou les séparer du reste de l’application ?
+
+--> Le pattern Fabrication définit une interface pour la création d’un objet, mais en laissant aux sous-classes 
+    le choix des classes à instancier. Fabrication permet à une classe de déléguer
+    l’instanciation à des sous-classes.
+/*
+    - Principe de conception :
+
+        Dépendez d’abstractions. Ne dépendez pas de classes concrètes.
+            => Principe d’inversion des dépendances.
+        ----------------------------------------------------------
+       
+        ------------------------------------------------------------
+       
+
+
+
+*/
