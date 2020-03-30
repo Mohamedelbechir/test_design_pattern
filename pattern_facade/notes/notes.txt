@@ -2,3 +2,38 @@
 -> Le pattern Façade fournit une interface unifiée à l’ensemble 
    des interfaces d’un sous-système. La façade fournit une interface 
    de plus haut niveau qui rend le soussystème plus facile à utiliser.
+
+!! Quand vous devez utiliser une classe existante et que son interface n’est
+   pas celle dont vous avez besoin, employez un adaptateur.   
+
+!! Quand vous devez simplifier et unifier une grosse interface ou un
+   ensemble d’interfaces complexe, employez une façade.
+
+!! Un adaptateur enveloppe un objet pour modifier son interface, un
+   décorateur enveloppe un objet pour ajouter de nouveaux comportements
+   et de nouvelles responsabilités, et une façade « enveloppe » un
+   ensemble d’objets afin de simplifier.
+   
+/*
+    - Principe de conception :
+
+         Ne parlez pas aux inconnus – ne parlez qu’à vos amis immédiats.
+
+            => sans le principe
+               public float getTemp() {
+                  Thermometre thermometre = station.getThermometre();
+                  return thermometre.getTemperature();
+               }
+            => avec le principe
+               public float getTemp() {
+                  return station.getTemperature();
+               }
+        ----------------------------------------------------------
+       
+        ------------------------------------------------------------
+       
+
+
+
+*/
+ 
