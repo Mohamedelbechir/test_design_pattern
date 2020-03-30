@@ -1,0 +1,5 @@
+
+
+-> Le pattern Adaptateur convertit l’interface d’une classe en une autre
+   conforme à celle du client. L’Adaptateur permet à des classes de collaborer,
+   alors qu’elles n’auraient pas pu le faire du fait d’interfaces incompatibles.

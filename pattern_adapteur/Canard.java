@@ -5,5 +5,6 @@ package pattern_adapteur;
  */
 public interface Canard {
 
-    
+    public void cancaner() ;
+    public void voler() ;
 }

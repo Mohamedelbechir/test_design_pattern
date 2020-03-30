@@ -1,0 +1,4 @@
+
+-> Le pattern Façade fournit une interface unifiée à l’ensemble 
+   des interfaces d’un sous-système. La façade fournit une interface 
+   de plus haut niveau qui rend le soussystème plus facile à utiliser.
