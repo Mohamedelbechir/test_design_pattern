@@ -1,0 +1,12 @@
+
+-> Le pattern Patron de méthode définit le squelette d’un algorithme
+   dans une méthode, en déléguant certaines étapes aux sous-classes. 
+   Patron de méthode permet aux sous-classes de redéfinir certaines étapes
+   d’un algorithme sans modifier la structure de celui-ci.
+  
+/**
+    - Principe de conception :
+
+         Le principe d’Hollywood : Ne nous appelez pas, nous vous appellerons.
+ */
+   

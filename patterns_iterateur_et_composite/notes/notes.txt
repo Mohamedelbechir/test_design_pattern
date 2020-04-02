@@ -1,0 +1,7 @@
+
+->  Le pattern Itérateur fournit un moyen d’accéder en séquence à
+    un objet de type agrégat sans révéler sa représentation sousjacente.
+/*
+    Principe de conception :
+        Une classe ne doit avoir qu’une seule raison de changer.
+ */

@@ -1,0 +1,3 @@
+->  Le pattern Composite compose des objets en des structures arborescentes pour représenter
+    des hiérarchies composant/composé. Il permet aux clients de traiter de la même façon les
+    objets individuels et les combinaisons de ceux-ci.
