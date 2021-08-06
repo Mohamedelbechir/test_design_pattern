@@ -7,6 +7,8 @@
     des responsabilités supplémentaires à un objet. Il
     fournit une alternative souple à la dérivation, pour
     étendre les fonctionnalités.
+    
+--> BufferedInputStream est decorateur dans api java
 /*
     - Principe de conception :
         les classes doivent être ouvert au changement et fermées à la modification

@@ -1,0 +1,14 @@
+      
+    Il existe 3 familles de design pattern 
+
+    Structurel 
+    => l'objectif de rassembler des objet et les classe en de plus 
+        grande structure tout en grandant celle-ci flexibles et efficaces.
+
+    Conportemental
+    => les patrons comportementaux s'occupent des algorithmes et de la repartition 
+        des responsabilités entre les objets
+
+    Créaction 
+    => l'idée c'est de fournir des mécanismes de création d'objets qui augmentent la flexibilité
+        et la réutilisation du code.
